@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "AVR",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/avr/include"
+            ],
+            "browse": {
+                "path": []
+            },
+            "defines": [
+                "F_CPU 8000000UL",
+                "__AVR_ATmega8A__"
+            ],
+            "compilerPath": "/usr/bin/avr-gcc",
+            "compilerArgs": [],
+            "cStandard": "c11",
+            "cppStandard": "gnu++11",
+            "intelliSenseMode": "linux-gcc-arm",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}
