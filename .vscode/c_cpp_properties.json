@@ -14,7 +14,7 @@
                 "__AVR_ATmega8A__"
             ],
             "compilerPath": "/usr/bin/avr-gcc",
-            "compilerArgs": [],
+            "compilerArgs": ["-Os"],
             "cStandard": "c11",
             "cppStandard": "gnu++11",
             "intelliSenseMode": "linux-gcc-arm",
